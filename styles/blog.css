@@ -94,8 +94,62 @@ nav li a {
     padding: 10px 50px;
     border-radius: 12px;
 }
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;  
+}
+.fact{
+    border: 2px solid #DEF5FF;
+    width: 376px;
+    height: 340px;
+    border-radius: 18px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.img{
+    width: 1440px;
+    height: 882px;
+}
+.fact-img{
+    width: 130px;
+    height: 111px;
+}
+.fact-div{
+    display: flex;
+    justify-content: center;   
+    font-weight: 600;
+}
+.fact-p{
+    display: flex;
+    justify-content: center;
+    border-width: #808080;
+    
+}
+
+.button1{
+    font-weight: 600;
+    background-color: #64C8FF;
+}
+.button2{
+    font-weight: 600;
+    background-color: #F0AA00;
+}
+.button3{
+    font-weight: 600;
+    background-color: #8700FF;
+}
 @media screen and (max-width: 576px) {
     .nav, .banner{
         flex-direction: column;
+    }
+    .fact{
+        justify-items: center;
     }
 }
